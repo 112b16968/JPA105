@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class hello {
+public class JPA105 {
     public static void main(String[] args) {
         Scanner input1 = new Scanner(System.in);
         System.out.print("請輸入您的姓名:");      
@@ -24,9 +24,9 @@ public class hello {
         int fifty =input2.nextInt();
 
         int total = one + five*5 + ten*10 + fifty*50;
-        System.out.println(total);
+
         int a = total /1000;
-        System.out.println(a);
+
         int b = total %1000;
         int c = b/100;
         int d = b%100;
@@ -35,9 +35,7 @@ public class hello {
         int g = f/1;
         
 
-        System.out.println(c);
-        System.out.println(e);
-        System.out.println(g);
+
         
         System.out.println("您的錢總共有:"+a+"千"+c+"百"+e+"十"+g+"元");
         input1.close();
